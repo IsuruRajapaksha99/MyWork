@@ -1,0 +1,106 @@
+
+@media screen{
+html{
+    scroll-behavior: smooth;
+}
+
+.navigation{
+    float: left;
+    padding-left: 240px;
+}
+
+.nav-ul{
+    list-style-type: none;
+    margin: 0;
+    padding:20px;
+    background-color: transparent;
+}
+.nav-li,.nav-active{
+    display:inline;
+}
+.nav-li a,.nav-active a{
+    padding: 20px;
+    color:aliceblue;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.nav-li a:hover,.nav-active a:hover{
+    color: gray;
+}
+.name{
+    margin-top: 10px;
+    text-align: center;
+    color:rgb(148, 206, 233);
+    padding: 40px;
+    padding-right: 36%;
+}
+.namehead{
+    margin-top: 100px;
+    color: rgb(148, 206, 233);
+
+}
+.OMG{
+    text-align: center;
+    color:rgb(148, 206, 233);
+    padding: 40px;
+    padding-right: 36%;
+
+}
+.rectangle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:transparent;
+    height: 300px;
+    width: 65%;
+    padding:2%;
+    color:white;
+    text-align: center;
+}
+.Box{
+    display: inline block;
+    background-color: white;
+    height:220px;
+    width: 23%;
+    Margin:3%;
+    float: left;
+    color: black;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding:2%;
+    border-radius:30px;
+}
+.Box:hover{
+    background-color: aliceblue;
+    border-radius:90px;
+
+}
+
+.pic{
+    padding-top: 10%;
+    height:150px;
+    width:100%;
+}
+body{
+    background-image: url(cover.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: contain;
+    background-color:black;
+}
+footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    padding: 3px;
+    background-color:aliceblue;
+    color: black;
+    position: fixed; /* we need to have fixed footer at the bottom of the page even we scrolled*/
+    bottom: 0; /* we do not keep any margin when we add footer*/
+    left: 0;
+    width: 100%;
+    }
+}
+

@@ -1,0 +1,49 @@
+.navigation{
+    float: right;
+    padding-right: 10%;
+    
+}
+
+.nav-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    background-color: transparent;
+}
+.nav-li,.nav-active{
+    display:inline;
+}
+.nav-li a,.nav-active a{
+    padding: 20px;
+    color:aliceblue;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.nav-li a:hover,.nav-active a:hover{
+    color: gray;
+}
+
+.head{
+    
+    color: white;
+    font-family:cursive;
+    font-size: x-large;
+    padding-left: 10%;
+    
+}
+body{
+    background-color: black;
+}
+footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    padding: 3px;
+    background-color:aliceblue;
+    color: black;
+    position: fixed; /* we need to have fixed footer at the bottom of the page even we scrolled*/
+    bottom: 0; /* we do not keep any margin when we add footer*/
+    left: 0;
+    width: 100%;
+    }
